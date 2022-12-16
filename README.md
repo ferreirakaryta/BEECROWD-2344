@@ -7,11 +7,11 @@ A entrada contém um único conjunto de testes, que deve ser lido do dispositivo
 Saída
 Seu programa deve imprimir, na saída padrão, uma letra (A, B, C, D, ou E em maiúsculas) representando o conceito correspondente à nota dada na entrada.
 
+
+
 import java.util.Locale;
 import java.util.Scanner;
-
 public class Main {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		sc.useLocale(Locale.ENGLISH);
